@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.navbar{
+    width: 100%;
+    color: white;
+    background-color: rgb(75, 77, 77);
+    height: 70px;
+}
+.navbar .container{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 10px;
+}
+.navbar .button a{
+    background-color: white;
+    color: #456d96;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.navbar .button1 a{
+    background-color: white;
+    color: #456d96;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* section  */
+section{
+    width: 100%;
+}
+.section{
+    width: 100%;
+}
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .title h1{
+    font-size: 40px;
+    color: #88941e;
+}
+.container .title h1::after{
+    content: "";
+    height: 5px;
+    width: 10%;
+    background-color: #c4d156;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+
+
